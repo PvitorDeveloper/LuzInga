@@ -1,7 +1,6 @@
 /* cores utilizadas
     #0077b6; tipo de azul h2
     #ffc8dd; tipo de rosa navbar
-
 */
 
 * {
@@ -85,10 +84,12 @@ h2{
 .slide{
     width: 100%;
     position: relative;
+    transition: 2s;
 }
 
 .slide img{
     width: 800px;
+    height: 500px;
 }
 
 .manual-navigation{
@@ -123,5 +124,6 @@ h2{
 }
 
 #radio-3:checked ~ .first{
-    margin-left: -25%;
+    margin-left: -200%;
 }
+
