@@ -39,7 +39,7 @@ ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 15px;
+    gap: 35px;
 }
 
 a{
@@ -125,5 +125,24 @@ h2{
 
 #radio-3:checked ~ .first{
     margin-left: -200%;
+}
+
+/**
+ Estilização da Ul do navbar
+**/
+
+li a{
+    color: #0077b6;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+li a:hover{
+    color: #4eb8f1;
+}
+
+li a:hover{
+    border-bottom: solid 2px;
+    transition: 1s;
 }
 
